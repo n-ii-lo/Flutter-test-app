@@ -18,7 +18,6 @@ class _MyPageState extends State<MyPage> {
   void changeRandomColor() {
     setState(() {
       color = Color.fromARGB(
-        //or with fromRGBO with fourth arg as _random.nextDouble(),
         random.nextInt(256),
         random.nextInt(256),
         random.nextInt(256),
